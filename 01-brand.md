@@ -114,3 +114,11 @@ Through speed, simplicity and visibility, Barqode gives warehouses the confidenc
 
 **The world's fulfilment network is connected, accessible and ready to serve the next generation of commerce.**
 
+---
+
+## Design References
+
+The Barqode visual language is informed by a curated collection of historical, industrial and information design references.
+
+See `09-references.md`.
+
