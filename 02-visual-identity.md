@@ -12,7 +12,7 @@
 
 Our visual language is inspired by systems that have been refined over decades to communicate quickly, accurately and universally. Rather than introducing something unfamiliar, Barqode feels immediately recognisable to anyone working in an operational environment.
 
-The interface should feel like infrastructure, not software.
+The interface should feel like equipment, not software.
 
 ---
 
@@ -38,11 +38,11 @@ Not because it looks distinctive, but because it is one of the most universally 
 
 A barcode represents:
 
-* Universal recognition
-* Identity
-* Structure
-* Precision
-* Simplicity
+- Universal recognition
+- Identity
+- Structure
+- Precision
+- Simplicity
 
 Like a barcode, Barqode should require no explanation.
 
@@ -118,6 +118,8 @@ The interface should feel organised in the same way a well-run operational envir
 
 Everything has a place.
 
+The operator should always know where to look next.
+
 ---
 
 # Information Design
@@ -125,6 +127,10 @@ Everything has a place.
 Barqode presents information like a shipping label.
 
 Every piece of information has a purpose.
+
+Information should exist within clearly defined working surfaces.
+
+Operators should instinctively know where to focus their attention simply by the structure of the interface.
 
 Hierarchy is obvious.
 
@@ -156,19 +162,63 @@ Motion should be fast, purposeful and never interrupt the user's workflow.
 
 ---
 
-# Colour Philosophy
+# Surface & Colour Philosophy
 
-Black and white form the foundation of the visual language.
+Barqode uses surfaces to communicate hierarchy before colour communicates meaning.
 
-Colour exists to communicate meaning—not decoration.
+The interface should feel calm, structured and comfortable during prolonged use.
 
-Every colour should have a clear purpose.
+## Application
 
-If colour can be removed without changing the meaning, it probably shouldn't be there.
+The application should never feel like a blank white canvas.
 
-Alerts should be immediately recognisable.
+Instead, it should use a very soft neutral grey as its primary background, allowing working surfaces to become immediately distinguishable.
 
-Interfaces should favour maximum contrast and legibility over visual trends.
+This subtle contrast creates depth naturally and reduces visual fatigue during long operational sessions.
+
+## Workspace
+
+Cards, tables, forms, panels and modules should almost always exist on white surfaces.
+
+These surfaces represent the operator's workspace.
+
+Whenever practical, information should live inside a clearly defined surface rather than directly on the application background.
+
+This creates consistency throughout the interface and naturally establishes hierarchy.
+
+Everything important should have a place to live.
+
+## Navigation
+
+Primary navigation should use a dark surface.
+
+Navigation anchors the application and should remain visually distinct from the operator's workspace.
+
+This surface should never use absolute black.
+
+Instead, it should use a softened neutral black that remains comfortable over prolonged periods of use.
+
+## Black
+
+Pure black (`#000000`) should generally be avoided.
+
+A softened neutral black provides excellent contrast while feeling less harsh on the eye.
+
+## White
+
+White should primarily be reserved for work surfaces rather than entire pages.
+
+The relationship between the soft grey application background and white work surfaces should create hierarchy without relying on heavy borders or shadows.
+
+## Colour
+
+Colour communicates operational meaning.
+
+It should reinforce status, warnings, progress and priority.
+
+It should never exist simply to decorate the interface.
+
+If colour can be removed without changing the meaning, it probably should not be there.
 
 ---
 
@@ -180,10 +230,10 @@ Our interfaces should feel familiar because they use conventions people already 
 
 Examples include:
 
-* Red with white text for critical errors and stop actions.
-* Yellow with black text for warnings and caution.
-* Green for success and completion.
-* Blue for information and guidance.
+- Red with white text for critical errors and stop actions.
+- Yellow with black text for warnings and caution.
+- Green for success and completion.
+- Blue for information and guidance.
 
 Where appropriate, icons and symbols should follow internationally recognised conventions rather than inventing new ones.
 
@@ -197,14 +247,14 @@ Barqode draws inspiration from systems that communicate clearly under pressure.
 
 These include:
 
-* Barcodes
-* Shipping labels
-* Road signage
-* Airport wayfinding
-* Warehouse operations
-* Industrial control systems
-* Safety and hazard signage
-* Human psychology of recognition
+- Barcodes
+- Shipping labels
+- Road signage
+- Airport wayfinding
+- Warehouse operations
+- Industrial control systems
+- Safety and hazard signage
+- Human psychology of recognition
 
 These systems have been refined over decades to reduce mistakes and communicate instantly across cultures and languages.
 
@@ -221,5 +271,7 @@ Every screen should feel familiar before it feels branded.
 Recognition is more valuable than originality.
 
 Clarity is more valuable than decoration.
+
+Hierarchy should be created through surfaces before decoration.
 
 Function always comes first.
