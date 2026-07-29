@@ -2,19 +2,22 @@
 
 This repository is the single source of truth for the Barqode brand.
 
-It defines how Barqode looks, communicates and behaves across every touchpoint, including:
+It defines the principles that shape how Barqode looks, communicates and behaves across every touchpoint, including:
 
 - Product interfaces
-- Websites and landing pages
-- Presentations and pitch decks
+- Websites
 - Documentation
 - Sales and marketing materials
-- Social media
-- Internal and external communications
+- Presentations
+- Internal communications
 
-Every designer, developer, agency, contractor and AI tool working on Barqode should review this repository before creating or changing any branded material.
+The purpose of this repository is not to prescribe individual designs.
 
-If an output conflicts with the principles defined in this repository, this repository takes priority.
+Its purpose is to establish a shared philosophy that guides every design decision.
+
+Every designer, developer, contractor, agency and AI system working on Barqode should read this repository before creating or modifying branded material.
+
+If an output conflicts with the principles defined here, this repository takes priority.
 
 ---
 
@@ -24,20 +27,18 @@ Barqode is not being designed as a conventional software brand.
 
 It is being designed as an operational system.
 
-The brand takes inspiration from the physical systems people already understand and trust:
+Rather than following contemporary SaaS design trends, Barqode draws inspiration from systems that have communicated clearly under pressure for decades:
 
 - Warehouse operations
 - Shipping labels
-- Road and safety signage
 - Airport wayfinding
+- Road and safety signage
 - Industrial control systems
 - Operational documentation
 
-These systems have been refined over decades to communicate clearly under pressure.
+These systems prioritise recognition, consistency and reliability over decoration.
 
-Rather than inventing a new language, Barqode builds upon the one operators already know.
-
-Every decision should answer one question:
+Every design decision should answer one question:
 
 > **Does this make the operation clearer?**
 
@@ -58,135 +59,29 @@ Every decision within the Barqode brand should reinforce these principles:
 - Every interaction increases confidence.
 - The operator's attention is the most valuable resource in the system.
 
-These principles apply equally to the product, website, documentation, sales materials and marketing.
+These principles apply equally to the product, website, documentation and marketing.
 
 ---
 
-# Brand Documents
+# Repository Structure
 
-## `01-brand.md`
+The documents in this repository are intended to be read in order.
 
-Defines the foundations of Barqode, including:
+| Document | Purpose |
+|----------|---------|
+| `01-brand.md` | Brand foundations |
+| `02-visual-language.md` | Visual philosophy |
+| `03-design-system.md` | Interface principles |
+| `04-logo.md` | Logo philosophy *(currently deferred)* |
+| `05-voice.md` | Communication principles |
+| `06-typography.md` | Typography philosophy |
+| `07-iconography.md` | Recognition system |
+| `08-motion.md` | Motion principles |
+| `09-references.md` | Historical and operational references |
 
-- Mission
-- Vision
-- Positioning
-- Audience
-- Beliefs
-- Promise
-- Personality
+Each document builds upon the previous one.
 
-## `02-visual-language.md`
-
-Defines the visual philosophy of Barqode, including:
-
-- Creative direction
-- Colour philosophy
-- Visual hierarchy
-- Operational references
-- The relationship between the digital product and the physical world
-
-## `03-design-system.md`
-
-Defines the principles behind Barqode interfaces, including:
-
-- Information architecture
-- Information hierarchy
-- Layout
-- Navigation
-- Cards and modules
-- Tables
-- Charts
-- Forms
-- Search and filters
-- Status and alerts
-- Empty states
-- Loading states
-- Error states
-- Density
-- Accessibility
-
-This document explains how interfaces should behave and why particular patterns should be used.
-
-It does not replace detailed component specifications or implementation documentation.
-
-## `04-logo.md`
-
-Reserved for the Barqode logo system.
-
-This document will be completed once the symbol, wordmark and construction principles have been properly explored, tested and established.
-
-Until then, Barqode may use a simple text wordmark.
-
-## `05-voice.md`
-
-Defines how Barqode communicates, including:
-
-- Communication philosophy
-- Product language
-- Writing principles
-- Error messages
-- Guidance and instructions
-- Progress and success messages
-- Terminology
-- Sales and marketing language
-
----
-
-# Planned Documents
-
-## `06-typography.md`
-
-Will define how information is presented through type, including:
-
-- Primary and supporting typefaces
-- Typographic hierarchy
-- Weights and emphasis
-- Numerals and data
-- Tables
-- Labels
-- Codes and identifiers
-- Density
-- Readability
-- Accessibility
-
-## `07-iconography.md`
-
-Will define Barqode's symbol system, including:
-
-- Operational signage
-- Road and safety symbols
-- Warning and status symbols
-- Real-world references
-- Icon construction
-- Recognition rules
-- When symbols should replace or support text
-
-## `08-motion.md`
-
-Will define how movement communicates state and change, including:
-
-- Transitions
-- Loading behaviour
-- Progress feedback
-- State changes
-- Functional animation
-- Timing
-- When motion should not be used
-
-## `09-references.md`
-
-Will document the physical, visual and operational systems that inform Barqode, including:
-
-- Warehouse signage
-- Shipping labels
-- Barcode history
-- Morse code
-- Road signage
-- Airport wayfinding
-- Industrial systems
-- Safety standards
-- Historical warehouse and factory imagery
+Together they define the Barqode design philosophy.
 
 ---
 
@@ -194,44 +89,28 @@ Will document the physical, visual and operational systems that inform Barqode, 
 
 This repository documents durable principles.
 
-It should explain:
+It explains:
 
-- Why Barqode makes a decision
-- What the decision should achieve
-- How the brand should behave
-- What should remain consistent across every touchpoint
+- Why decisions are made.
+- What those decisions should achieve.
+- How Barqode should behave.
+- What should remain consistent across every touchpoint.
 
-It should not become a written copy of a Figma file or codebase.
-
-Exact component dimensions, spacing tokens, breakpoints, interaction specifications and engineering decisions should live in the relevant design and development systems.
+It is **not** intended to replace Figma libraries, engineering documentation or implementation specifications.
 
 ---
 
 # Current Status
 
-The Barqode brand system is being developed from the ground up.
+**Version:** 1.0
 
-The following foundations are established:
+The foundational Barqode design philosophy has now been established.
 
-- Brand
-- Visual language
-- Design principles
-- Voice
+The logo system remains intentionally deferred until it can emerge from the principles documented throughout this repository rather than dictate them.
 
-The following systems are still being developed:
+As Barqode evolves, these documents should evolve with it.
 
-- Logo
-- Typography
-- Iconography
-- Motion
-- References
-
-These documents will continue to evolve as the brand is tested across:
-
-- The Barqode product
-- The website
-- Customer onboarding
-- Sales materials
+Changes should strengthen the underlying philosophy rather than follow temporary design trends.
 - Documentation
 - Real warehouse workflows
 
